@@ -2,6 +2,8 @@ package section2;
 
 import java.awt.Color;
 
+import javax.swing.JOptionPane;
+
 import org.jointheleague.graphical.robot.Robot;
 
 /* Teacher’s note: before beginning, draw a pentagon and have students work out the angle that the robot will have to turn (360/5) */
@@ -15,7 +17,7 @@ public class PentagonCrazy {
 		jeff.setSpeed(100);
 
 		jeff.setPenColor(Color.BLUE);
-
+		
 		int i = 100;
 
 		int s = 72;
